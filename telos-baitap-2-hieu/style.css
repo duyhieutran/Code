@@ -1,0 +1,51 @@
+.h1 {
+  font-family: Inter;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 98px;
+  text-align: center;
+}
+.label-l {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.label-m {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  padding: 12px 32px;
+  border-radius: 6px;
+  background-color: #8c30f5;
+  color: white;
+  gap: 10px;
+  border: none;
+}
+.circle {
+  width: 1200px;
+  height: 1200px;
+  border-radius: 100%;
+  background-color: #d6b1ff;
+  position: relative;
+}
+.circle-container {
+  height: 169px;
+  width: auto;
+  overflow: hidden;
+  clip-path: inset(0 0 0 0);
+  position: relative;
+}
